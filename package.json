@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "build": "tsc .",
+        "build": "tsc",
         "dev": "ts-node ./src/index.ts"
     },
     "devDependencies": {
@@ -18,7 +18,7 @@
             "license": "MIT"
         }
     ],
-    "index": "dist/index.js",
+    "main": "dist/index.js",
     "files": [
         "dist"
     ],
@@ -51,6 +51,7 @@
         "minimist": "^0.0.8",
         "mkdirp": "^0.5.1",
         "once": "^1.4.0",
+        "parse-multipart": "^1.0.4",
         "path-is-absolute": "^1.0.1",
         "path-parse": "^1.0.6",
         "resolve": "^1.11.1",

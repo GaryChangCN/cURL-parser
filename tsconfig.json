@@ -3,7 +3,8 @@
         "target": "es2015",
         "module": "commonjs",
         "outDir": "./dist",
-        "declaration": true
+        "declaration": true,
+        
     },
     "exclude": [
         "node_modules",
