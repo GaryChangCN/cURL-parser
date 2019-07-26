@@ -1,7 +1,6 @@
 {
-    "name": "curl-parser",
+    "name": "parse-curl-js",
     "version": "1.0.0",
-    "main": "index.js",
     "scripts": {
         "build": "tsc",
         "dev": "ts-node ./src/index.ts"
