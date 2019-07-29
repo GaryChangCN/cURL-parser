@@ -1,9 +1,10 @@
 {
     "name": "parse-curl-js",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "scripts": {
         "build": "tsc",
-        "dev": "ts-node ./src/index.ts"
+        "dev": "ts-node ./src/index.ts",
+        "lab": "ts-node ./src/lab.ts"
     },
     "devDependencies": {
         "@types/node": "^12.6.8",

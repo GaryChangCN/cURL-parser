@@ -162,16 +162,16 @@ export default class CURLParser {
                         type = 'text/plain'
                     }
                 }
-            } else {
-                if (typeof data === 'string' && data) {
-                    try {
-                        JSON.parse(data)
-                    } catch (error) {
-                        //
-                    }
+            }
+        } else {
+            if (typeof data === 'string' && data) {
+                try {
+                    JSON.parse(data)
+                    type = 'application/json'
+                } catch (error) {
+                    //
                 }
             }
-
         }
 
 
